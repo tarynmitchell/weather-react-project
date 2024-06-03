@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -15,6 +15,7 @@ export default function Weather(props) {
         Humidity: <strong id="humidity">80%</strong>, Wind:
         <strong id="wind-speed">10km/h</strong>
       </p>
+
       <div className="weather-app-temperature-container">
         <div id="icon"></div>
         <div className="weather-app-temperature" id="temperature"></div>
