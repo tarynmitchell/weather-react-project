@@ -10,14 +10,14 @@ export default function Footer() {
           Taryn Mitchell
         </a>
         , is
-        <a href="https://github.com/tarynmitchell/weather-app" target="_blank">
+        <a
+          href="https://github.com/tarynmitchell/weather-react-project"
+          target="_blank"
+        >
           open-sourced on GitHub
         </a>
         and
-        <a
-          href="https://main--weather-shecodes-website.netlify.app/"
-          target="_blank"
-        >
+        <a href="https://thunderous-druid-e90d6b.netlify.app/" target="_blank">
           hosted on Netlify
         </a>
       </footer>
