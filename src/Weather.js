@@ -17,10 +17,11 @@ export default function Weather(props) {
       </p>
 
       <div className="weather-app-temperature-container">
-        <div id="icon"></div>
+        <div id="icon">⛅️</div>
         <div className="weather-app-temperature" id="temperature"></div>
         <div className="weather-app-unit">19°C</div>
       </div>
+
       <div className="weather-forecast" id="forecast"></div>
     </main>
   );
